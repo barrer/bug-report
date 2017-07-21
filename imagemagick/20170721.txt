@@ -2,3 +2,81 @@ The "-monochrome" parameter loses all the visible information and gets a full bl
 
 convert -brightness-contrast -10x20 20170721.jpg 20170721-correct.png
 convert -brightness-contrast -10x20 -monochrome 20170721.jpg 20170721-lost-information.png
+
+
+
+macOS 10.12.4
+
+➜  imagemagick git:(master) brew info imagemagick
+imagemagick: stable 7.0.6-1 (bottled), HEAD
+Tools and libraries to manipulate images in many formats
+https://www.imagemagick.org/
+/usr/local/Cellar/imagemagick/7.0.6-0 (1,522 files, 22.4MB) *
+  Poured from bottle on 2017-07-17 at 11:10:00
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/imagemagick.rb
+==> Dependencies
+Build: pkg-config ✔
+Required: libtool ✔, xz ✔
+Recommended: jpeg ✔, libpng ✔, libtiff ✘, freetype ✔
+Optional: fontconfig ✘, little-cms ✘, little-cms2 ✘, libwmf ✘, librsvg ✘, liblqr ✘, openexr ✘, ghostscript ✘, webp ✘, openjpeg ✘, fftw ✘, pango ✘
+==> Requirements
+Optional: x11 ✔, perl >= 5.5 ✔
+==> Options
+--with-fftw
+	Compile with FFTW support
+--with-fontconfig
+	Build with fontconfig support
+--with-ghostscript
+	Build with ghostscript support
+--with-hdri
+	Compile with HDRI support
+--with-liblqr
+	Build with liblqr support
+--with-librsvg
+	Build with librsvg support
+--with-libwmf
+	Build with libwmf support
+--with-little-cms
+	Build with little-cms support
+--with-little-cms2
+	Build with little-cms2 support
+--with-opencl
+	Compile with OpenCL support
+--with-openexr
+	Build with openexr support
+--with-openjpeg
+	Build with openjpeg support
+--with-openmp
+	Compile with OpenMP support
+--with-pango
+	Build with pango support
+--with-perl
+	Compile with PerlMagick
+--with-quantum-depth-16
+	Compile with a quantum depth of 16 bit
+--with-quantum-depth-32
+	Compile with a quantum depth of 32 bit
+--with-quantum-depth-8
+	Compile with a quantum depth of 8 bit
+--with-webp
+	Build with webp support
+--with-x11
+	Build with x11 support
+--with-zero-configuration
+	Disables depending on XML configuration files
+--without-freetype
+	Build without freetype support
+--without-jpeg
+	Build without jpeg support
+--without-libpng
+	Build without libpng support
+--without-libtiff
+	Build without libtiff support
+--without-magick-plus-plus
+	disable build/install of Magick++
+--without-modules
+	Disable support for dynamically loadable modules
+--without-threads
+	Disable threads support
+--HEAD
+	Install HEAD version
