@@ -1,0 +1,4 @@
+The "-monochrome" parameter loses all the visible information and gets a full black picture.
+
+convert -brightness-contrast -10x20 20170721.jpg 20170721-correct.png
+convert -brightness-contrast -10x20 -monochrome 20170721.jpg 20170721-lost-information.png
